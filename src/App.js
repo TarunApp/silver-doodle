@@ -18,7 +18,7 @@ function App() {
 
       <div className="ui">
         <Date onDate={SetData}/>
-        <GetFile/>
+        <GetFile date={data}/>
       </div>
 
     </div>
